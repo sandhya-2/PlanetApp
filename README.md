@@ -10,6 +10,9 @@ UIKit and SwiftUI
 # Architecture
 This application uses MVVM for the views and clean architecture for the URL calls.
 
+# Offline Storage
+CoreData is used.
+
 # Design Patterns
 Async await.
 
