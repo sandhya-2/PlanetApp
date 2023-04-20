@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "954476D3-E1D3-4AD8-9FA9-A81E155542DE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23BFA808-22DA-4775-8DA4-7517AB1BEB0E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlanetApp/Repository/PlanetsListCoreDataRepositoryImplemenation.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "savePlanetsListData(planets:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F873B0FB-FBF8-4628-A4EF-57F9DFECAD65"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlanetAppTests/RepositoryTests/PlanetsListRepositoryImplemenationTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "testWhenGetPlanetsListWhenGetNoData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F873B0FB-FBF8-4628-A4EF-57F9DFECAD65 - bb56616d07c5c4bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for PlanetAppTests.PlanetsListRepositoryImplemenationTests.testWhenGetPlanetsListParsingFails() async throws -&gt; ()"
+                  moduleName = "PlanetAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/iOS_training2022/PlanetApp/PlanetAppTests/RepositoryTests/PlanetsListRepositoryImplemenationTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "210">
+               </Location>
+               <Location
+                  uuid = "F873B0FB-FBF8-4628-A4EF-57F9DFECAD65 - 13c62257d5796aba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for PlanetAppTests.PlanetsListRepositoryImplemenationTests.testWhenGetPlanetsListParsingFails() async throws -&gt; ()"
+                  moduleName = "PlanetAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/iOS_training2022/PlanetApp/PlanetAppTests/RepositoryTests/PlanetsListRepositoryImplemenationTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "233">
+               </Location>
+               <Location
+                  uuid = "F873B0FB-FBF8-4628-A4EF-57F9DFECAD65 - bb56616d07c5c579"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for PlanetAppTests.PlanetsListRepositoryImplemenationTests.testWhenGetPlanetsListParsingFails() async throws -&gt; ()"
+                  moduleName = "PlanetAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/iOS_training2022/PlanetApp/PlanetAppTests/RepositoryTests/PlanetsListRepositoryImplemenationTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "198">
+               </Location>
+               <Location
+                  uuid = "F873B0FB-FBF8-4628-A4EF-57F9DFECAD65 - 13c62257d5796b78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for PlanetAppTests.PlanetsListRepositoryImplemenationTests.testWhenGetPlanetsListParsingFails() async throws -&gt; ()"
+                  moduleName = "PlanetAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/iOS_training2022/PlanetApp/PlanetAppTests/RepositoryTests/PlanetsListRepositoryImplemenationTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "224">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
