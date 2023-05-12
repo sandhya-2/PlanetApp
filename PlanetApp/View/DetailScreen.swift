@@ -2,7 +2,7 @@
 //  DetailScreen.swift
 //  PlanetApp
 //
-//  Created by admin on 18/04/2023.
+//  Created by Sandiya on 18/04/2023.
 //
 
 import SwiftUI
@@ -19,7 +19,7 @@ struct DetailScreen: View {
             
                Spacer()
                         
-        }.navigationTitle("UIKit Screen")
+        }.navigationTitle("Planet Details")
         
     }
 }

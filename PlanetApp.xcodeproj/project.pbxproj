@@ -17,7 +17,6 @@
 		84C7A49B29E96B7100FEC99B /* PlanetAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7A49A29E96B7100FEC99B /* PlanetAppUITests.swift */; };
 		84C7A49D29E96B7100FEC99B /* PlanetAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7A49C29E96B7100FEC99B /* PlanetAppUITestsLaunchTests.swift */; };
 		84C7A4AE29EE970100FEC99B /* PlanetResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7A4AD29EE970100FEC99B /* PlanetResponse.swift */; };
-		84C7A4B029EE97F500FEC99B /* JSONNull.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7A4AF29EE97F500FEC99B /* JSONNull.swift */; };
 		84C7A4B229EE987100FEC99B /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7A4B129EE987100FEC99B /* APIEndpoint.swift */; };
 		84C7A4B429EE98D700FEC99B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7A4B329EE98D700FEC99B /* NetworkManager.swift */; };
 		84C7A4B629EE991200FEC99B /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7A4B529EE991200FEC99B /* NetworkError.swift */; };
@@ -72,7 +71,6 @@
 		84C7A49A29E96B7100FEC99B /* PlanetAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetAppUITests.swift; sourceTree = "<group>"; };
 		84C7A49C29E96B7100FEC99B /* PlanetAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		84C7A4AD29EE970100FEC99B /* PlanetResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetResponse.swift; sourceTree = "<group>"; };
-		84C7A4AF29EE97F500FEC99B /* JSONNull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONNull.swift; sourceTree = "<group>"; };
 		84C7A4B129EE987100FEC99B /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
 		84C7A4B329EE98D700FEC99B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		84C7A4B529EE991200FEC99B /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
@@ -190,7 +188,6 @@
 			isa = PBXGroup;
 			children = (
 				84C7A4AD29EE970100FEC99B /* PlanetResponse.swift */,
-				84C7A4AF29EE97F500FEC99B /* JSONNull.swift */,
 				84C7A4D229EFE27500FEC99B /* PlanetObjectEntity+Extension.swift */,
 			);
 			path = Model;
@@ -412,7 +409,6 @@
 				84C7A4B229EE987100FEC99B /* APIEndpoint.swift in Sources */,
 				84C7A4B829EE9A7500FEC99B /* Networking.swift in Sources */,
 				84C7A4C729EEA63600FEC99B /* PlanetsListRepositoryImplementation.swift in Sources */,
-				84C7A4B029EE97F500FEC99B /* JSONNull.swift in Sources */,
 				84C7A48429E96B7100FEC99B /* PersistenceController.swift in Sources */,
 				84C7A4AE29EE970100FEC99B /* PlanetResponse.swift in Sources */,
 				84C7A4B429EE98D700FEC99B /* NetworkManager.swift in Sources */,

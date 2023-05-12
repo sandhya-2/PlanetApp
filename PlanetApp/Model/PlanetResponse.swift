@@ -2,37 +2,31 @@
 //  PlanetResponse.swift
 //  PlanetApp
 //
-//  Created by admin on 18/04/2023.
+//  Created by Sandiya on 18/04/2023.
 //
 
 import Foundation
 
-// MARK: - Welcome
+// MARK: - PlanetResponse
 struct PlanetResponse: Decodable {
     let count: Int
     let next: String?
-    let previous: JSONNull?
+    let previous: Int?
     let results: [Planet]
 }
 
 // MARK: - Result
 struct Planet: Decodable, Identifiable {
-    var id = UUID()
-        
     let name, rotationPeriod, orbitalPeriod, diameter: String
     let climate, gravity, terrain, surfaceWater: String
     let population: String
-//    let residents, films: [String]
     let created, edited: String
     let url: String
+}
 
-    enum CodingKeys: String, CodingKey {
-        case name
-        case rotationPeriod = "rotation_period"
-        case orbitalPeriod = "orbital_period"
-        case diameter, climate, gravity, terrain
-        case surfaceWater = "surface_water"
-        case population, created, edited, url
+extension Planet {
+    var id: UUID {
+        return UUID()
     }
 }
 

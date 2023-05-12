@@ -2,14 +2,14 @@
 //  PlanetViewModel.swift
 //  PlanetApp
 //
-//  Created by admin on 18/04/2023.
+//  Created by Sandiya on 18/04/2023.
 //
 
 import Foundation
 import CoreData
 
 @MainActor
-class PlanetViewModel:ObservableObject{
+class PlanetViewModel:ObservableObject {
     
     @Published var planetList: [Planet] = []
     @Published var customError: NetworkError?
@@ -24,7 +24,7 @@ class PlanetViewModel:ObservableObject{
           
 }
 
-extension PlanetViewModel: PlanetListUseCase{
+extension PlanetViewModel: PlanetListUseCase {
     /**
         Get the list of planet by sending urlString
        @ Parameters: urlString of type string
@@ -32,7 +32,7 @@ extension PlanetViewModel: PlanetListUseCase{
      */
         
     func getDataForPlanets(urlString: String) async {
-        guard let url = URL(string: urlString) else{
+        guard let url = URL(string: urlString) else {
             DispatchQueue.main.async {
                 self.customError = NetworkError.invalidURL
             }

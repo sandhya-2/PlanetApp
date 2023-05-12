@@ -2,7 +2,7 @@
 //  PlanetCell.swift
 //  PlanetApp
 //
-//  Created by admin on 18/04/2023.
+//  Created by Sandiya on 18/04/2023.
 //
 
 import SwiftUI
@@ -15,7 +15,7 @@ struct PlanetCell: View {
         
         VStack(alignment: .leading){
                         
-            Text("Name: " + planet.name)
+            Text(planet.name)
                 .font(.title)
             Text("Gravity: " + planet.gravity)
                 .font(.subheadline)
